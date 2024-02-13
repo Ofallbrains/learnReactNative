@@ -8,7 +8,7 @@ export const Signin = () => {
     return (
         <View>
 
-            {/* <View style={{ alignItems: 'center' }}> */}
+            
             <TouchableOpacity>
                 <Entypo name='cross' size={20} style={{ marginTop: 50, marginLeft: 30, }} />
             </TouchableOpacity>

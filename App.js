@@ -1,15 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import {View,} from 'react-native';
+import { View, } from 'react-native';
 
-import {Signin} from "./Screen/Signin";
+import { Signin } from "./Screen/Signin";
+import { Shipping } from './Screen/Shipping';
 
 export default function App() {
 
   return (
-<View>
-      
-  <Signin />
-</View>
+    <View>
+       {/* <Signin /> */}
+      <Shipping />
+    </View>
   )
 }
 
