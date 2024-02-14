@@ -21,7 +21,7 @@ export const Signin = () => {
             <View>
 
                 <TextInput label="Email" mode="offline" left={<TextInput.Icon color={'violet'} size={15} icon={"email-outline"} style={{backgroundColor:'#FF9BD2'}}  />} style={{ marginTop: 10, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF', }} />
-                <TextInput label="Password" mode="offline" left={<TextInput.Icon color={'#40A2E3'} size={15} icon={"lock-outline"} style={{ backgroundColor: '#BFCFE7' }} />} style={{ marginTop: 15, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF'}} />
+                <TextInput label="Password" mode="offline" secureTextEntry left={<TextInput.Icon color={'#40A2E3'} size={15} icon={"lock-outline"} style={{ backgroundColor: '#BFCFE7' }} />} style={{ marginTop: 15, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF',}} />
             </View>
             <View style={{ marginTop: 15, display: 'flex', flexDirection: 'row',alignItems:'center', marginLeft: 30}}>
             <Checkbox status='unchecked' />
