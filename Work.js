@@ -14,10 +14,10 @@ export const Work = () => {
                     <MaterialCommunityIcons name='dots-vertical' size={25} style={{ marginRight: 20 }} />
                 </View>
                 <View>
-                   <Image source={require('../assets/images/house1.png')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
-                   <Image source={require('../assets/images/house2.png')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
-                   <Image source={require('../assets/images/house3.png')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
-                   <Image source={require('../assets/images/house4.png')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
+                   <Image source={require('./assets/images/house1.jpg')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
+                   <Image source={require('./assets/images/house1.jpg')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
+                   <Image source={require('./assets/images/house1.jpg')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
+                   <Image source={require('./assets/images/house1.jpg')} style={{ width: 300, height: 300, alignSelf: 'center' }} />
                 </View>
                 <StatusBar style="auto" />
             </ScrollView>

@@ -13,13 +13,13 @@ export const Register = () => {
 
             <View>
                 <TextInput label="Username" mode="offline" left={<TextInput.Icon color={'violet'} size={15} icon={"account-outline"} style={{ backgroundColor: '#FF9BD2' }} />} style={{ marginTop: 10, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF', }} />
-                <TextInput label="Email" mode="offline" left={<TextInput.Icon color={'violet'} size={15} icon={"Email-outline"} style={{ backgroundColor: '#FF9BD2' }} />} style={{ marginTop: 10, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF', }} />
+                <TextInput label="Email" mode="offline" left={<TextInput.Icon color={'violet'} size={15} icon={"email-outline"} style={{ backgroundColor: '#FF9BD2' }} />} style={{ marginTop: 10, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF', }} />
                 <TextInput label="Password" mode="offline" secureTextEntry left={<TextInput.Icon color={'#40A2E3'} size={15} icon={"lock-outline"} style={{ backgroundColor: '#BFCFE7' }} />} style={{ marginTop: 15, width: 300, alignSelf: 'center', backgroundColor: '#EEF5FF', }} />
             </View>
             <TouchableOpacity style={{borderwidth:1, borderColor:'white', borderRadius: 15 }}>
                 <Text>Register</Text>
            </TouchableOpacity>
-            <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: 20 }}>
+            <View style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: 10 }}>
                 <Icon name="facebook" size={30} color="blue" style={{ borderWidth: 1, borderColor: 'white', borderRadius: 80, padding: 10, backgroundColor: '#EEF5FF', marginLeft: 20 }} />
                 <FontAwesome name='google' size={24} color="red" style={{ marginTop: 3, borderWidth: 1, borderColor: 'white', borderRadius: 80, padding: 10, backgroundColor: '#EEF5FF' }} />
                 <Icon name="apple" size={30} color="black" style={{ borderWidth: 1, borderColor: 'white', borderRadius: 80, padding: 10, backgroundColor: '#EEF5FF', marginRight: 30 }} />
