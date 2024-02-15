@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import React from 'react'
 import {Icon} from "react-native-elements";
-import { AntDesign, Entypo, FontAwesome } from "react-native-vector-icons"
+import { AntDesign, Entypo} from "react-native-vector-icons"
 import { TextInput, Checkbox } from "react-native-paper"
 
 export const Signin = () => {
