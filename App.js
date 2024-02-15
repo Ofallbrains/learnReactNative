@@ -5,15 +5,16 @@ import { Signin } from "./Screen/Signin";
 import { Shipping } from './Screen/Shipping';
 import { Login } from './Developer/Login';
 import { Register } from './Developer/Register';
+import { Screen } from './Developer/Screen';
 
 export default function App() {
 
   return (
     <View>
       {/* <Register/> */}
-      <Login/>
-      {/* <Work /> */}
-       {/* <Signin /> */}
+      {/* <Login/> */}
+    <Screen />
+      {/* <Signin /> */}
       {/* <Shipping /> */}
     </View>
   )
