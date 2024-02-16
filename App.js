@@ -6,27 +6,21 @@ import { Shipping } from './Screen/Shipping';
 import { Login } from './Developer/Login';
 import { Register } from './Developer/Register';
 import { Screen } from './Developer/Screen';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
 
   return (
-    <View>
-      {/* <Register/> */}
-      {/* <Login/> */}
-    <Screen />
-      {/* <Signin /> */}
-      {/* <Shipping /> */}
-    </View>
+    <NavigationContainer>
+    <Stack.Navigator>
+        <Stack.Screen name="login" component={Login}/>
+        <Stack.Screen name="register" component={Register}/>
+    </Stack.Navigator>
+  </NavigationContainer>
+  
   )
 }
 
-
-// const styles = StyleSheet.create({
-//   container: {
-//     // flex: 1,
-//     backgroundColor: 'white',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-
-// });
