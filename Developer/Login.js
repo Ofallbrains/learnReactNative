@@ -9,6 +9,7 @@ import { TextInput } from "react-native-paper"
 export const Login = ({navigation}) => {
     return (
         <View style={{backgroundColor: '#F3F5F6',borderWidth: 0}}>
+            <ScrollView>
             <Image source={require('../assets/logo1.jpeg')}/>
             
              
@@ -29,7 +30,8 @@ export const Login = ({navigation}) => {
                 </TouchableOpacity>
                 
             </View>
-            <StatusBar style="auto" />
+                <StatusBar style="auto" />
+            </ScrollView>
         </View >
             
     )
